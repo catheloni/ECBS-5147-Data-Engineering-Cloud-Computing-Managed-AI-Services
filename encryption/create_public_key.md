@@ -6,10 +6,11 @@ echo "My project folder is ${CODESPACE_VSCODE_FOLDER}"
 ```
 
 Generate SSH keys
+you could encode your private code with a password
 ```
 ssh-keygen -t rsa -f ${CODESPACE_VSCODE_FOLDER}/my_keypair -N ''
 ```
-
+_p
 Where: 
 * `ssh-keygen` is a standard command for generating a keypair`
 * `-t rsa` tells the keygen that we want to create an RSA keypair (there are many different algorithms for keypair generation)
