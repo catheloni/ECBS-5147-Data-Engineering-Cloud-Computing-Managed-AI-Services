@@ -6,7 +6,7 @@ import requests
 
 # Set your username here - must match the bucket created in the notebook
 # Bucket name: <username>-wikidata
-S3_WIKI_BUCKET = "<username>-wikidata"
+S3_WIKI_BUCKET = "catheloni-wikidata"
 
 
 def lambda_handler(event, context):
@@ -53,3 +53,6 @@ def lambda_handler(event, context):
         "statusCode": 200,
         "body": f"Uploaded {len(top_edits)} records to s3://{S3_WIKI_BUCKET}/{s3_key}",
     }
+
+
+event.get()
