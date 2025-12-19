@@ -9,7 +9,7 @@ Wikipedia Views Pipeline - Homework Self-Check Script
 This script validates your homework submission before you turn it in.
 Run it from the repository root directory:
 
-    ./homework/check_submission.py <your-username>
+    ./homework/check_submission.py catheloni
 
 Example:
     ./homework/check_submission.py johndoe
